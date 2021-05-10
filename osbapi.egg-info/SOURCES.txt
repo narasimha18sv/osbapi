@@ -1,0 +1,14 @@
+README.rst
+setup.py
+osbapi.egg-info/PKG-INFO
+osbapi.egg-info/SOURCES.txt
+osbapi.egg-info/dependency_links.txt
+osbapi.egg-info/entry_points.txt
+osbapi.egg-info/namespace_packages.txt
+osbapi.egg-info/not-zip-safe
+osbapi.egg-info/requires.txt
+osbapi.egg-info/top_level.txt
+osbapicli/__init__.py
+osbapicli/__main__.py
+osbapicli/main.py
+osbapicli/simple.py

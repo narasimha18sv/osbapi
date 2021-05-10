@@ -1,0 +1,8 @@
+[console_scripts]
+osbapi = osbapicli.main:main
+
+[osbapi]
+catalog = osbapicli.simple:Catalog
+deprovision = osbapicli.simple:DeProvision
+provision = osbapicli.simple:Provision
+
