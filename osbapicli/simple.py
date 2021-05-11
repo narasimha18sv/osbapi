@@ -67,7 +67,7 @@ class DeProvision(Command):
         plan_id=parsed_args.plan_id
         request_id=parsed_args.request_id
         headers={'X-Broker-API-Version': '2.16', 'Content-Type': 'application/json'}
-        response=requests.delete("http://127.0.0.1:5000/v2/service_instances/"+request_id+"service_id="+service_id+"&plan_id="+plan_id, headers=headers)
+        response=requests.delete("http://127.0.0.1:5000/v2/service_instances/"+request_id+"?service_id="+service_id+"&plan_id="+plan_id, headers=headers)
         print(f'Response code {response.status_code}, request_id {request_id} deprovisioned')
    
 
